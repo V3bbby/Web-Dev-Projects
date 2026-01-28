@@ -83,7 +83,7 @@ hr {
     border-color: burlywood;
 }
 
-#line{
+.line{
     color: aliceblue;
     border-color: aliceblue;
 }
@@ -97,6 +97,6 @@ li {
     color: darkslategray
 }
 
-#linktwo {
+.linktwo {
     color: lightgray;
 }
