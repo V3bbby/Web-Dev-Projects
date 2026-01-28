@@ -1,0 +1,102 @@
+#homepage {
+    background-image: url(../Images/Background.webp);
+}
+
+#about {
+    background-image: url(../Images/Background3.webp);
+    background-size: cover;
+}
+#container {
+    background-image: url(../Images/Background2.jpg);
+    background-size:cover;
+    width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 10px solid olive;
+    border-radius: 20px;
+    
+}
+
+#containertwo {
+    background-color: gray;
+    background-size:cover;
+    width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 10px solid darkslategray;
+    border-radius: 20px;}
+
+p{
+    font-size: large;
+}
+
+#smallimg {
+    width: 400px;
+    height: auto;
+}
+
+
+header {
+    height: 250px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 250px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a { color: black;
+font-size: 20px;
+padding: 20px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+h2 {
+text-align: center;
+font-family: monospace;
+font-size: 35px;
+}
+
+main img {
+    display: block;
+    margin:  20px auto;
+    width: 500px;
+    border-radius:  20px;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+}
+
+hr {
+    color: burlywood;
+    border-color: burlywood;
+}
+
+#line{
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+li {
+    padding-bottom: 25px;
+    font-size: large;
+}
+
+:any-link {
+    color: darkslategray
+}
+
+#linktwo {
+    color: lightgray;
+}
