@@ -1,0 +1,128 @@
+/* Global Styles */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color: blue;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    color: red;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 40px;
+    margin: 40px 0;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav li a :hover {
+    background-color: aliceblue;
+    color: blue;
+}
+
+main h2 {
+    text-align: center;
+    color: red;
+}
+
+main img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: red; 
+}
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+    nav li {
+        display: inline:
+
+    }
+
+    nav li a {
+        display: inline-block;
+        width: 150px;
+    }
+
+    main img {
+        width: 50%;
+    }
+}
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container{
+        width: 75%;
+
+
+    }
+    nav {
+        background-color: aqua;
+        border-radius: 10px;
+
+    }
+
+    main{
+        display: flex;
+    }
+
+    main img{
+        width: 100%;
+        height: ;
+    }
+
+    section, aside {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid red;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+}
