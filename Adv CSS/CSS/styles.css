@@ -151,6 +151,7 @@ hr {
 li {
     padding-bottom: 25px;
     font-size: large;
+    list-style-type: none;
 }
 
 :any-link {
@@ -179,8 +180,7 @@ border: 10px solid #2b4022 ;
 
 .link3 {
     color: #2b4022;
-    border: 10% solid lightgreen;
-    border-width: 10%;
+
 
 }
 
