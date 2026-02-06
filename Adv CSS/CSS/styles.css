@@ -16,7 +16,7 @@ background-size: cover;
 #container {
     background-image: url(../Images/Background2.jpg);
     background-size:cover;
-    width: 950px;
+    width: 75%;
     margin: 20px auto;
     padding: 20px;
     border: 10px solid olive;
@@ -27,7 +27,7 @@ background-size: cover;
 #containertwo {
     background-color: gray;
     background-size:cover;
-    width: 950px;
+    width: 75%px;
     margin: 20px auto;
     padding: 20px;
     border: 10px solid darkslategray;
