@@ -27,7 +27,7 @@ background-size: cover;
 #containertwo {
     background-color: gray;
     background-size:cover;
-    width: 75%px;
+    width: 75%;
     margin: 20px auto;
     padding: 20px;
     border: 10px solid darkslategray;
