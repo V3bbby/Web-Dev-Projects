@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-    background-image: url(/Images/UnCol.avif);
+    background-image: url(../Images/UnCol.avif);
     color: white;
    background-size: contain;
 }
