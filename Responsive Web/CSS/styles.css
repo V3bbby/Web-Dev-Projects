@@ -1,9 +1,12 @@
 /* Global Styles */
 
 body {
-    background-color: black;
+    background-image: url(/Images/UnCol.avif);
     color: white;
+   background-size: contain;
 }
+
+
 
 img {
     display: block;
@@ -11,14 +14,49 @@ img {
     width: 100%;
 }
 
+p {color: black;}
+
+
 /* Mobile Styles */
 
+ section, aside {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid red;
+        border-radius: 10px;
+        width: 50%;
+    }
+    
+
 #container {
-    background-color: blue;
+    background-color: #F2F2F2;
     border: 2px solid red;
     padding: 10px;
     margin: 10px auto;
     border-radius: 10px;
+}
+
+hr {color: red;
+    border-color: red;
+}
+
+li {
+    color: black;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.bigtext {
+    font-size: larger;
+}
+
+
+
+
+
+
+.cover {
+    width: fit-content;
 }
 
 header {
@@ -27,8 +65,22 @@ header {
 }
 
 header h1 {
-    color: red;
+    font-size: 50px;
+    color: black;
 }
+    h2{
+text-align: center;
+font-size: 35px;
+color: black;
+}
+
+
+    h3{
+text-align: center;
+font-size: 35px;
+color: black;
+}
+
 
 nav {
     text-align: center;
@@ -39,35 +91,29 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    display: block;
-}
 
 nav li a {
-    display: block;
-    background-color: yellow;
+ 
+    background-color: wheat;
     color: black;
+    padding: 5px;
     height: 40px;
     width: 40px;
     margin: 40px 0;
     line-height: 40px;
     text-decoration: none;
     border-radius: 10px;
+    box-shadow: 5px 3px 3px black;
 }
 
-nav li a :hover {
-    background-color: aliceblue;
-    color: blue;
-}
-
-main h2 {
-    text-align: center;
-    color: red;
+nav li a:hover {
+    background-color: black;
+    color: white;
 }
 
 main img {
     border-radius: 10px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 3px black;
 }
 
 footer {
@@ -80,13 +126,20 @@ footer {
 
 @media(min-width: 768px) {
     nav li {
-        display: inline:
+        display: inline;
 
     }
 
+    .fit{
+    width: fit-content;
+    height: auto;
+}
+
+
     nav li a {
         display: inline-block;
-        width: 150px;
+        width: 210px;
+        margin: 10px;
     }
 
     main img {
@@ -103,10 +156,24 @@ footer {
 
     }
     nav {
-        background-color: aqua;
+        background-color: burlywood;
         border-radius: 10px;
+        box-shadow: 5px 3px 3px black;
 
     }
+
+    .small {
+    width: 200px;
+}
+
+   .fit{
+    width: 200px;
+    height: auto;
+}
+
+.big {
+    width: 75%;
+}
 
     main{
         display: flex;
@@ -114,7 +181,7 @@ footer {
 
     main img{
         width: 100%;
-        height: ;
+        height: auto ;
     }
 
     section, aside {
@@ -124,5 +191,6 @@ footer {
         border-radius: 10px;
         width: 50%;
     }
+    
 
 }
