@@ -5,4 +5,5 @@
 <li> <a href="HTML5 and CSS Intro/index.html" target="_blank">HTML 5 and CSS Intro- TLOU </a> </li>
 <li> <a href="Adv CSS/index.html" target="_blank">Adv CSS- TLOU </a> </li>
 <li> <a href="Responsive Web/Page1.html" target="_blank">Responsive Web- Uncharted </a> </li>
+<li> <a href="Final Project/index.html" target="_blank">Final Project- Animal Crossing </a> </li>
 </ul>
